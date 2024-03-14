@@ -62,7 +62,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|------------------------------------------------------------------------------------------------|------|
 |RNF-001| O sistema deve contar com métodos de acessibilidade para deficiente visuais                    | ALTA | 
 |RNF-002| O sistema deve enviar notificações para usuário para situações de chuva no local do usuário    | ALTA |
-|RNF-002| O sistema deve rodar em plataformas web, android e ios                                         | ALTA | 
+|RNF-002| O sistema deve rodar em plataformas web, android                                               | ALTA | 
 
 
 ## Restrições
