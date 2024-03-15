@@ -93,23 +93,29 @@ Abaixo podemos ver um esboço do planjamento da construção do projeto.
 
 # Arquitetura da Solução
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
-
-![Arquitetura da Solução](img/02-mob-arch.png)
+Basicamente a nossa solução contará com duas aplicações Client-side (Aplicação Android e Web) e um serviço de back-end. O back-end servirá para as duas aplicações Android e Web. O Back-end também será responsável por se comunicar com APIs externas e por realizar operações no banco de dados (PostgreSQL).
+\
+![Arquitetura da Solução](img/ARQ-vai-chuve.png)
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+- Front-end web
+Pretendemos utilizar React para aplicação Web
+- Aplicação Android
+Pretendemos utilizar solução React Native para desenvolvimento da aplicação Android
+- Serviço Back-end
+Pretendemos utilizar Supabase como solução integradora de banco de dados, Edge Functions (Funções de borda) e autenticação.
+- Serviços externos
+Pretendemos utilizar alguns serviços externos para consulta de notícias e dados de clima
+  - **NewsAPI:** Uma API para localizar notícias de todo o mundo
+  - **OpenWeather:** API para consulta de dados sobre o clima
+  - **Clima Tempo Advisor:** API de previsão do tempo
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+Supabase e Google Cloud
 
 > **Links Úteis**:
 >
 > - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+> - [Supabase](https://supabase.com/)
