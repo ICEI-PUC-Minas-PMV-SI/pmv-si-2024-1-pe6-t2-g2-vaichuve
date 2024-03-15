@@ -87,7 +87,8 @@ O projeto ira oferecer:
 
 ## Gerenciamento de Tempo
 
-Abaixo podemos ver um esboço do planjamento da construção do projeto./
+Abaixo podemos ver um esboço do planjamento da construção do projeto.
+\
 ![Gráfico de planejamento do projeto](img/GanttChartVaiChuve.png)
 
 # Arquitetura da Solução
