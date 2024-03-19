@@ -13,7 +13,7 @@ de situações meterológicas incomuns via plataformas mobile.
 
 ## Justificativa
 
-Atravez de pesquisas nos acervos mais comuns de aplicativos notamos uma dificuldade de encontrar soluções metereológicas que foquem no usuário com deficiencia visual e tomamos essa dor como motivação para a criação desse tipo de aplicação.
+Através de pesquisas nos acervos mais comuns de aplicativos notamos uma dificuldade de encontrar soluções metereológicas que foquem no usuário com deficiencia visual e tomamos essa dor como motivação para a criação desse tipo de aplicação.
 
 ## Público-Alvo
 
