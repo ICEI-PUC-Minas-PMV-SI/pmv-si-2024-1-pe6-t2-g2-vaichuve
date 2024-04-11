@@ -1,17 +1,12 @@
 # APIs e Web Services
 
-O planejamento de uma aplicação de APIS Web é uma etapa fundamental para o sucesso do projeto. Ao planejar adequadamente, você pode evitar muitos problemas e garantir que a sua API seja segura, escalável e eficiente.
-
-Aqui estão algumas etapas importantes que devem ser consideradas no planejamento de uma aplicação de APIS Web.
-
-[Inclua uma breve descrição do projeto.]
+O projeto de backend da aplicação VaiChuve consiste em uma solução serveless hosteado no provedor de serviços SupaBase e ultilizado serviços de
+cloud functions e banco de dados on demand. 
 
 ## Objetivos da API
 
-O primeiro passo é definir os objetivos da sua API. O que você espera alcançar com ela? Você quer que ela seja usada por clientes externos ou apenas por aplicações internas? Quais são os recursos que a API deve fornecer?
-
-[Inclua os objetivos da sua api.]
-
+A API tem como objetivo ser leve e escalável para aguentar diversas cargas de workload dos usuários web e mobile e além disso entregar uma solução simples
+de desenvolvimento e manutenção para que um pequeno pacote de dados seja entregue ao usuário de maneira rápida e confiável.
 
 ## Arquitetura
 
