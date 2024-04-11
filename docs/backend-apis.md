@@ -1,6 +1,6 @@
 # APIs e Web Services
 
-O projeto de backend da aplicação VaiChuve consiste em uma solução serveless hosteado no provedor de serviços SupaBase e utilizado serviços de
+O projeto de backend da aplicação VaiChuve consiste em uma solução serveless hosteado no provedor de serviços SupaBase e utilizando serviços de
 cloud functions e banco de dados on demand. 
 
 ## Objetivos da API
@@ -14,7 +14,7 @@ de desenvolvimento e manutenção para que um pequeno pacote de dados seja entre
 
 ## Modelagem da Aplicação
 
-Abaixo temos um overview geral da modelagem de dados que iremos ultilizar na aplicação.
+Abaixo temos um overview geral da modelagem de dados que iremos utilizar na aplicação.
 \\
 ![Modelagem de Dados](img/ModelagemDeDados.jpg)
 
