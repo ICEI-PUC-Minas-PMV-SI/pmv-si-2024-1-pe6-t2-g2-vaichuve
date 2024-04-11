@@ -20,6 +20,7 @@ O primeiro passo é definir os objetivos da sua API. O que você espera alcança
 ## Modelagem da Aplicação
 
 Abaixo temos um overview geral da modelagem de dados que iremos ultilizar na aplicação.
+\\
 ![Modelagem de Dados](img/ModelagemDeDados.jpg)
 
 ## Fluxo de Dados
