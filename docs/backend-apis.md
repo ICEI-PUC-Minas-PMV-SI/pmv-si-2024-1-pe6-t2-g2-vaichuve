@@ -10,6 +10,7 @@ de desenvolvimento e manutenção para que um pequeno pacote de dados seja entre
 
 ## Arquitetura
 
+### RENATO!
 [Descrição da arquitetura das APIs, incluindo os componentes e suas interações.]
 
 ## Modelagem da Aplicação
@@ -20,18 +21,29 @@ Abaixo temos um overview geral da modelagem de dados que iremos ultilizar na apl
 
 ## Fluxo de Dados
 
-[Diagrama ou descrição do fluxo de dados na aplicação.]
+O principal fluxo de dados consiste principalmente em chamados que o usuário mobile ou web faz de maneira pública ao backend para receber as informações de clima da sua localidade em um espaço de tempo. Esse chamado deve prover os dados de localidade e opcionalmente data para pesquisas de histórico de clima.
 
 ## Requisitos Funcionais
 
-[Liste os principais requisitos funcionais da aplicação.]
+|ID    | Descrição do Requisito                                                                                        | Prioridade |
+|------|---------------------------------------------------------------------------------------------------------------|------------|
+|RF-001| Permitir que o usuário consulte previsões metereológicas                                                      | ALTA       |
+|RF-002| Permitir que o usuário consulte histórico de previsões metereológicas                                         | ALTA       | 
+|RF-003| Permitir que o usuário mande um feedback sobre a previsão de tempo que ele recebeu                            | MÉDIA      |
+|RF-004| Exibir na interface uma noticia do dia para o usuário                                                         | BAIXA      |
+|RF-005| Permitir que o usuário participe em uma enquete de palpites sobre a situação metereológica dos próximos dias  | BAIXA      |
 
-## Requisitos Não Funcionais
+## Requisitos não Funcionais
 
-[Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]
+|ID     | Descrição do Requisito  |Prioridade |
+|-------|------------------------------------------------------------------------------------------------|------|
+|RNF-001| O sistema deve contar com métodos de acessibilidade para deficiente visuais                    | ALTA | 
+|RNF-002| O sistema deve enviar notificações para usuário para situações de chuva no local do usuário    | ALTA |
+|RNF-002| O sistema deve rodar em plataformas web, android                                               | ALTA | 
 
 ## Tecnologias Utilizadas
 
+### RENATO!
 Existem muitas tecnologias diferentes que podem ser usadas para desenvolver APIs Web. A tecnologia certa para o seu projeto dependerá dos seus objetivos, dos seus clientes e dos recursos que a API deve fornecer.
 
 [Lista das tecnologias principais que serão utilizadas no projeto.]
@@ -749,6 +761,7 @@ Existem muitas tecnologias diferentes que podem ser usadas para desenvolver APIs
 
 ## Considerações de Segurança
 
+### RENATO!
 [Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
 
 ## Implantação
