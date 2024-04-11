@@ -18,8 +18,9 @@ O primeiro passo é definir os objetivos da sua API. O que você espera alcança
 [Descrição da arquitetura das APIs, incluindo os componentes e suas interações.]
 
 ## Modelagem da Aplicação
-[Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
 
+A baixo temos um overview geral da modelagem de dados que iremos ultilizar na aplicação.
+![Modelagem de Dados](img/ModelagemDeDados.jpg)
 
 ## Fluxo de Dados
 
