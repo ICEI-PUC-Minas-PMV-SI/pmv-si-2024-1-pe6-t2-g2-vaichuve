@@ -10,8 +10,13 @@ de desenvolvimento e manutenção para que um pequeno pacote de dados seja entre
 
 ## Arquitetura
 
-### RENATO!
-[Descrição da arquitetura das APIs, incluindo os componentes e suas interações.]
+- Supabase: Supabase é uma plataforma que fornece um conjunto de ferramentas para desenvolvimento de aplicativos web e móveis, incluindo banco de dados PostgreSQL, autenticação, armazenamento de arquivos e funções serverless.
+
+- Banco de Dados PostgreSQL: O banco de dados PostgreSQL é o componente central onde os dados do aplicativo são armazenados. Ele é gerenciado pelo Supabase e contém informações como usuários, configurações do aplicativo e dados relacionados ao clima.
+
+- Funções Serverless: As funções serverless são pequenos trechos de código que podem ser executados em resposta a eventos específicos, como solicitações de API. No caso do Supabase, essas funções são executadas em resposta a chamadas de API e têm acesso direto ao banco de dados. Vamos utilizar como um cronograma de consulta as informações do clima.
+
+- Integração com o Aplicativo e Aplicação Web: O aplicativo e a aplicação web fazem solicitações para as APIs fornecidas pelo backend. Isso inclui solicitações para autenticação de usuários, recuperação e modificação de dados do banco de dados e obtenção de informações sobre o clima. As funções serverless respondem a essas solicitações executando consultas no banco de dados ou interagindo com APIs externas, conforme necessário, e retornam os resultados para os clientes.
 
 ## Modelagem da Aplicação
 
@@ -43,10 +48,10 @@ O principal fluxo de dados consiste principalmente em chamados que o usuário mo
 
 ## Tecnologias Utilizadas
 
-### RENATO!
-Existem muitas tecnologias diferentes que podem ser usadas para desenvolver APIs Web. A tecnologia certa para o seu projeto dependerá dos seus objetivos, dos seus clientes e dos recursos que a API deve fornecer.
-
-[Lista das tecnologias principais que serão utilizadas no projeto.]
+- PostgreSQL
+- Serverless Functions
+- React Native
+- React
 
 ## API Endpoints
 
@@ -761,8 +766,7 @@ Existem muitas tecnologias diferentes que podem ser usadas para desenvolver APIs
 
 ## Considerações de Segurança
 
-### RENATO!
-[Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
+Estaremos utilizando a versão gratuita do Supabase, dessa forma não estaremos aderente ao SOC2. Os logs de acesso ao sistema serão retidos por apenas um dia, todos os endpoints estarão protegidos e será necessário a autenticação utilizando uma conta de serviço para acesso anônimo aos dados.
 
 ## Implantação
 
