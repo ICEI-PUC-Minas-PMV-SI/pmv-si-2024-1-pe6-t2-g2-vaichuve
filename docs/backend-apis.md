@@ -770,23 +770,11 @@ Estaremos utilizando a versão gratuita do Supabase, dessa forma não estaremos 
 
 ## Implantação
 
-[Instruções para implantar a aplicação distribuída em um ambiente de produção.]
-
-1. Defina os requisitos de hardware e software necessários para implantar a aplicação em um ambiente de produção.
-2. Escolha uma plataforma de hospedagem adequada, como um provedor de nuvem ou um servidor dedicado.
-3. Configure o ambiente de implantação, incluindo a instalação de dependências e configuração de variáveis de ambiente.
-4. Faça o deploy da aplicação no ambiente escolhido, seguindo as instruções específicas da plataforma de hospedagem.
-5. Realize testes para garantir que a aplicação esteja funcionando corretamente no ambiente de produção.
+Para implantar nossa aplicação de previsão de chuva com acessibilidade para pessoas com deficiência visual em um ambiente de produção, seguimos os seguintes passos. Primeiro, definimos os requisitos de hardware, como um servidor com capacidade de processamento e armazenamento adequada, também um smartphone com acesso a internet, e software, incluindo um sistema operacional compatível (Andriod ou IOS) e as dependências necessárias para executar o Supabase, React e React Native. Em seguida, escolhemos o Supabase como nossa plataforma de hospedagem, aproveitando sua facilidade de uso e escalabilidade para sistemas distribuídos. Depois, configuramos o ambiente de implantação no Supabase, instalando as dependências do projeto e configurando as variáveis de ambiente, como chaves de API e configurações específicas do ambiente de produção. Com tudo preparado, realizamos o deploy da aplicação no Supabase, seguindo suas instruções específicas para implantação de aplicativos React e React Native. Por fim, conduzimos testes extensivos para garantir que a aplicação esteja funcionando corretamente no ambiente de produção, assegurando uma experiência confiável e acessível para todos os usuários, incluindo pessoas com deficiência visual.
 
 ## Testes
 
-[Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
-
-1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
-2. Implemente testes unitários para testar unidades individuais de código, como funções e classes.
-3. Realize testes de integração para verificar a interação correta entre os componentes da aplicação.
-4. Execute testes de carga para avaliar o desempenho da aplicação sob carga significativa.
-5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
+Foram realizados testes utilizando a plataforma Insomnia para validar a funcionalidade e integridade dos endpoints da API. Utilizando uma abordagem manual, cada solicitação foi examinada para garantir que os dados fossem corretamente transmitidos e que as respostas estivessem de acordo com as especificações. Essa estratégia permitiu uma validação detalhada e eficaz, garantindo a qualidade e confiabilidade dos serviços oferecidos pelo Back-end da aplicação.
 
 # Referências
 
