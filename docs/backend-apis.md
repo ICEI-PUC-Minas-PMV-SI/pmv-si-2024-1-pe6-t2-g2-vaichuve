@@ -778,4 +778,4 @@ Foram realizados testes utilizando a plataforma Insomnia para validar a funciona
 
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+Foi utilizada a documentação do Supabase para realizar as consultas para construção do código.
