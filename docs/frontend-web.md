@@ -27,7 +27,7 @@ A arquitetura da aplicação "vai-chuve" segue um modelo baseado em componentes,
 
 A imagem a abaixo mostra como foi inicialmente planejado a estrutura visual do projeto, suas logos e imagens bem como os blocos de informação que a aplicação vai disponibilizar.
 
-![Design do Projeto](img/Design do projeto.jpg)
+![Design do Projeto](img/designProjeto.jpg)
 
 ### Layout Responsivo
 [Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
