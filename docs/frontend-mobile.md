@@ -1,28 +1,14 @@
 # Front-end Móvel
 
-O projeto "vai-chuve" é uma aplicação móvel desenvolvida para fornecer previsões meteorológicas precisas e atualizadas. O objetivo principal é oferecer aos usuários uma interface intuitiva e responsiva e com grandde foco na acessibilidade, onde os usuários possam consultar informações sobre o tempo, alertas climáticos e previsões semanais. O projeto visa melhorar a experiência do usuário com uma aplicação rápida, eficiente e visualmente acessível.
+[Inclua uma breve descrição do projeto e seus objetivos.]
 
 ## Tecnologias Utilizadas
 
-As principais tecnologias utilizadas no desenvolvimento do projeto incluem:
-
-Next.js: Framework React para renderização do lado do servidor e criação de aplicações web rápidas e eficientes.
-React: Biblioteca JavaScript para construção de interfaces de usuário.
-Chakra UI: Biblioteca de componentes React para a criação de interfaces de usuário acessíveis e estilizadas.
-TypeScript: Superset de JavaScript que adiciona tipagem estática ao código.
-Tailwind CSS: Framework CSS utilitário para criar layouts customizados rapidamente.
-ESLint: Ferramenta de linting para garantir a qualidade e consistência do código.
+[Lista das tecnologias principais que serão utilizadas no projeto.]
 
 ## Arquitetura
 
-A arquitetura da aplicação "vai-chuve" segue um modelo baseado em componentes, onde cada parte da interface é construída como um componente reutilizável e independente. Abaixo está uma descrição geral dos componentes principais e suas interações:
-
-Componentes de Interface: Utilizando Chakra UI para construir componentes estilizados e responsivos.
-Gerenciamento de Estado
-Context API / React Hooks: Utilizados para gerenciar o estado da aplicação, como dados meteorológicos e preferências do usuário.
-Comunicação com APIs
-Fetch/Axios: Utilizados para realizar chamadas a APIs externas para obter dados meteorológicos.
-Tailwind CSS: Utilizado para estilização utilitária, permitindo a rápida criação de layouts personalizados.
+[Descrição da arquitetura das aplicação móvel, incluindo os componentes e suas interações.]
 
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
