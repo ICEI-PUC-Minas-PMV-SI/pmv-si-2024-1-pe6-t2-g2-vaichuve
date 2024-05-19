@@ -20,9 +20,6 @@ A arquitetura da aplicação "vai-chuve" segue um modelo baseado em componentes,
 - Fetch/Axios: Utilizados para realizar chamadas a APIs externas para obter dados meteorológicos.
 - Tailwind CSS: Utilizado para estilização utilitária, permitindo a rápida criação de layouts personalizados.
 
-## Modelagem da Aplicação
-[Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
-
 ## Projeto da Interface Web
 
 A imagem a abaixo mostra como foi inicialmente planejado a estrutura visual do projeto, suas logos e imagens bem como os blocos de informação que a aplicação vai disponibilizar.
@@ -30,7 +27,8 @@ A imagem a abaixo mostra como foi inicialmente planejado a estrutura visual do p
 ![Design do Projeto](img/designProjeto.jpg)
 
 ### Layout Responsivo
-[Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
+
+Para gerenciar a responsavidade da aplicação iremos ultilizar das ferramentas de responsividade da biblioteca da Chakra UI. Ela fornece componentes pré-estilizados e ferramentas como o Box e o Flex, que suportam propriedades responsivas diretamente, permitindo ajustes dinâmicos baseados nos pontos de interrupção (breakpoints) definidos. Com a utilização de breakpoints, é possível aplicar estilos diferentes conforme o tamanho da tela, garantindo que a interface se adapte harmoniosamente em dispositivos variados, desde celulares até desktops. Além disso, Chakra UI facilita a criação de layouts flexíveis e responsivos através de seus componentes de grade e sistema de espaçamento, contribuindo para uma experiência de usuário consistente e otimizada em qualquer resolução.
 
 ### Interações do Usuário
 
@@ -42,12 +40,24 @@ O projeto não ira ultilizar de ferramentas visuais de animação, transição, 
 
 ## Requisitos Funcionais
 
-[Liste os principais requisitos funcionais da aplicação.]
+1. ALTA:  O usuário deve poder pesquisar o clima atual e previsões futuras inserindo uma localização de cidade.
+2. ALTA:  A aplicação deve atualizar automaticamente as informações climáticas diáriamente.
+3. ALTA:  Mostrar dados como temperatura, umidade, velocidade do vento, e condições climáticas.
+4. ALTA:  Descrição de Imagens: Incluir descrições alternativas (alt text) para todas as imagens e ícones utilizados, para que leitores de tela possam descrever essas imagens para usuários com deficiência visual.
+5. MÉDIA: Implementar uma função que permita a narração das informações climáticas em voz alta.
+6. MÉDIA: Garantir que todos os elementos da interface sejam acessíveis através de leitores de tela como NVDA, JAWS e VoiceOver.
+7. BAIXA: Permitir que todas as funcionalidades da aplicação possam ser acessadas e operadas exclusivamente via teclado.
+8. BAIXA: Oferecer um modo de alto contraste para usuários com baixa visão.
 
 ## Requisitos Não Funcionais
 
-[Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]
-
+1. ALTA:  A aplicação deve carregar e responder rapidamente, com tempos de carregamento inferiores a 2 segundos em conexões padrão.
+2. ALTA:  A arquitetura deve suportar um grande número de usuários simultâneos sem degradação perceptível de desempenho.
+3. ALTA:  Garantir a proteção de dados do usuário, especialmente ao usar APIs de terceiros para obter dados climáticos.
+4. ALTA:  A aplicação deve ser compatível com os navegadores mais utilizados, incluindo Chrome, Firefox, Safari e Edge.
+5. ALTA:  A aplicação deve estar em conformidade com as diretrizes de acessibilidade WCAG 2.1, pelo menos no nível AA.
+6. ALTA:  A interface deve ser intuitiva e fácil de usar, minimizando a curva de aprendizado para novos usuários.
+7. ALTA:  A aplicação deve funcionar de forma consistente e estável, com uma taxa mínima de falhas ou bugs.
 
 ## Considerações de Segurança
 
@@ -65,16 +75,18 @@ Para garantir a segurança da aplicação "vai-chuve", adotamos diversas técnic
 8. No painel da Vercel, vá para a seção de variáveis de ambiente.
 9. Adicione todas as variáveis necessárias, como chaves de API para serviços de meteorologia, garantindo que estejam configuradas corretamente para o ambiente de produção.
 
-## Testes
+## Referências
 
-[Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
-
-1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
-2. Implemente testes unitários para testar unidades individuais de código, como funções e classes.
-3. Realize testes de integração para verificar a interação correta entre os componentes da aplicação.
-4. Execute testes de carga para avaliar o desempenho da aplicação sob carga significativa.
-5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
-
-# Referências
-
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+- VERCEL. Next.js - The React Framework for Production. Disponível em: https://nextjs.org/. Acesso em: 19 maio 2024.
+- FACEBOOK. React – A JavaScript library for building user interfaces. Disponível em: https://reactjs.org/. Acesso em: 19 maio 2024.
+- CHAKRA UI. Chakra UI - Simple, Modular and Accessible UI Components for React Applications. Disponível em: https://chakra-ui.com/. Acesso em: 19 maio 2024.
+- MICROSOFT. TypeScript: JavaScript with syntax for types. Disponível em: https://www.typescriptlang.org/. Acesso em: 19 maio 2024.
+- TAILWIND LABS. Tailwind CSS - A utility-first CSS framework for rapid UI development. Disponível em: https://tailwindcss.com/. Acesso em: 19 maio 2024.
+- OPENJS FOUNDATION. ESLint - Find and fix problems in your JavaScript code. Disponível em: https://eslint.org/. Acesso em: 19 maio 2024.
+- W3C. Web Content Accessibility Guidelines (WCAG) 2.1. Disponível em: https://www.w3.org/TR/WCAG21/. Acesso em: 19 maio 2024.
+- NV ACCESS. NVDA - Free screen reader. Disponível em: https://www.nvaccess.org/. Acesso em: 19 maio 2024.
+- FREEDOM SCIENTIFIC. JAWS Screen Reader. Disponível em: https://www.freedomscientific.com/products/software/jaws/. Acesso em: 19 maio 2024.
+- APPLE. VoiceOver - Apple. Disponível em: https://www.apple.com/accessibility/vision/. Acesso em: 19 maio 2024.
+- MOZILLA. HTTPS - Secure your site with HTTPS. Disponível em: https://developer.mozilla.org/en-US/docs/Web/Security/HTTP_strict_transport_security. Acesso em: 19 maio 2024.
+- OWASP. OWASP Top Ten - Web Application Security Risks. Disponível em: https://owasp.org/www-project-top-ten/. Acesso em: 19 maio 2024.
+- VERCEL. Vercel - Develop. Preview. Ship. For the best frontend teams. Disponível em: https://vercel.com/. Acesso em: 19 maio 2024.
