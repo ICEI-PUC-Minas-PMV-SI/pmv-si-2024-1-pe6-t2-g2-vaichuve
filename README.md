@@ -19,7 +19,7 @@ O Projeto Vai-Chuve consiste em uma solução de informações meterológicas qu
 
 ## Orientador
 
-Pedro Pongelupe Lopes
+* Pedro Pongelupe Lopes
 
 # Planejamento
 
