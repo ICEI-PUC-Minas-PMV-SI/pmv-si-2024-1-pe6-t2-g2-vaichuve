@@ -51,17 +51,19 @@ O projeto não ira ultilizar de ferramentas visuais de animação, transição, 
 
 ## Considerações de Segurança
 
-[Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
+Para garantir a segurança da aplicação "vai-chuve", adotamos diversas técnicas de segurança essenciais. Primeiramente, utilizamos HTTPS para assegurar que todas as comunicações entre o cliente e o servidor sejam criptografadas, protegendo os dados contra interceptações maliciosas. Implementamos validação e sanitização rigorosas dos dados de entrada para prevenir ataques de injeção, como SQL Injection e Cross-Site Scripting (XSS). A autenticação e autorização robustas são configuradas para garantir que apenas usuários autenticados e autorizados possam acessar determinadas funcionalidades e dados sensíveis. Utilizamos bibliotecas e dependências seguras, mantendo-as sempre atualizadas para evitar vulnerabilidades conhecidas. Também empregamos ferramentas de análise estática e dinâmica do código para identificar e corrigir vulnerabilidades antes que elas sejam exploradas. Além disso, monitoramos continuamente a aplicação para detectar e responder rapidamente a qualquer atividade suspeita ou tentativa de ataque.
 
 ## Implantação
 
-[Instruções para implantar a aplicação distribuída em um ambiente de produção.]
-
-1. Defina os requisitos de hardware e software necessários para implantar a aplicação em um ambiente de produção.
-2. Escolha uma plataforma de hospedagem adequada, como um provedor de nuvem ou um servidor dedicado.
-3. Configure o ambiente de implantação, incluindo a instalação de dependências e configuração de variáveis de ambiente.
-4. Faça o deploy da aplicação no ambiente escolhido, seguindo as instruções específicas da plataforma de hospedagem.
-5. Realize testes para garantir que a aplicação esteja funcionando corretamente no ambiente de produção.
+1 - Certifique-se de que o ambiente de produção tenha suporte para Node.js.
+2 - Garanta pelo menos 512MB de RAM para lidar com operações simultâneas.
+3 - Assegure uma conexão estável à internet para acessar APIs externas de meteorologia.
+4 - Utilize a plataforma Vercel para hospedar a aplicação devido à sua robustez e facilidade de integração com Next.js.
+5 - Acesse o painel de controle da Vercel.
+6 - Conecte o repositório GitHub que contém o código da aplicação.
+7 - No painel da Vercel, configure o projeto para instalar automaticamente todas as dependências listadas no package.json.
+8 - No painel da Vercel, vá para a seção de variáveis de ambiente.
+9 - Adicione todas as variáveis necessárias, como chaves de API para serviços de meteorologia, garantindo que estejam configuradas corretamente para o ambiente de produção.
 
 ## Testes
 
