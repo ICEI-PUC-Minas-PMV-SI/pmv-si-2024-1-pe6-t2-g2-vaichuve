@@ -55,15 +55,15 @@ Para garantir a segurança da aplicação "vai-chuve", adotamos diversas técnic
 
 ## Implantação
 
-1 - Certifique-se de que o ambiente de produção tenha suporte para Node.js.
-2 - Garanta pelo menos 512MB de RAM para lidar com operações simultâneas.
-3 - Assegure uma conexão estável à internet para acessar APIs externas de meteorologia.
-4 - Utilize a plataforma Vercel para hospedar a aplicação devido à sua robustez e facilidade de integração com Next.js.
-5 - Acesse o painel de controle da Vercel.
-6 - Conecte o repositório GitHub que contém o código da aplicação.
-7 - No painel da Vercel, configure o projeto para instalar automaticamente todas as dependências listadas no package.json.
-8 - No painel da Vercel, vá para a seção de variáveis de ambiente.
-9 - Adicione todas as variáveis necessárias, como chaves de API para serviços de meteorologia, garantindo que estejam configuradas corretamente para o ambiente de produção.
+1. Certifique-se de que o ambiente de produção tenha suporte para Node.js.
+2. Garanta pelo menos 512MB de RAM para lidar com operações simultâneas.
+3. Assegure uma conexão estável à internet para acessar APIs externas de meteorologia.
+4. Utilize a plataforma Vercel para hospedar a aplicação devido à sua robustez e facilidade de integração com Next.js.
+5. Acesse o painel de controle da Vercel.
+6. Conecte o repositório GitHub que contém o código da aplicação.
+7. No painel da Vercel, configure o projeto para instalar automaticamente todas as dependências listadas no package.json.
+8. No painel da Vercel, vá para a seção de variáveis de ambiente.
+9. Adicione todas as variáveis necessárias, como chaves de API para serviços de meteorologia, garantindo que estejam configuradas corretamente para o ambiente de produção.
 
 ## Testes
 
