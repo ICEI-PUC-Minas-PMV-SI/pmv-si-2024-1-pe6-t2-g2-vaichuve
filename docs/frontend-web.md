@@ -36,7 +36,18 @@ O projeto não ira ultilizar de ferramentas visuais de animação, transição, 
 
 ## Fluxo de Dados
 
-[Diagrama ou descrição do fluxo de dados na aplicação.]
+1.  O usuário acessa a aplicação web.
+2.  Se existirem dados de localização armazenados, a aplicação os utiliza para prosseguir.
+3.  Se não existirem dados de localização armazenados, a aplicação faz uma requisição à API IP Info para obter informações de localização baseadas no IP do usuário.
+4.  A API IP Info retorna os dados de IP, incluindo a localização (latitude e longitude).
+5.  Os dados de IP são armazenados no Local Storage para uso futuro.
+6.  A aplicação extrai a latitude e longitude dos dados de IP obtidos.
+7.  Requisição para Função RPC do Supabase:
+8.  A aplicação faz uma requisição à função RPC nearby_city do Supabase, passando a latitude e longitude para obter a cidade mais próxima.
+9.  O Supabase retorna os dados da cidade mais próxima.
+10. A aplicação faz uma requisição para a tabela clima do Supabase para obter os dados climáticos da cidade próxima, ordenados por data de criação e limitados a 10 registros.
+11. O Supabase retorna os dados climáticos.
+12. A aplicação exibe os dados climáticos na interface do usuário.
 
 ## Requisitos Funcionais
 
