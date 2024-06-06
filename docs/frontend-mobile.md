@@ -34,7 +34,7 @@ Utilizamos as cores azul #1190cb e branco. Como fonte utilizamos Helvética sem 
 O sistema foi projetado para atender qualquer dispositivo andriod, independente do tamanho da tela.
 
 ### Interações do Usuário
-O sistema não possui o uso se animações e transições, o motivo é facilitar o uso para pessoas com deficiência visual e também facilitar o trabalho dos leitores de tela. Também é possível persolizar a visualização.
+O sistema não possui o uso se animações e transições, o motivo é facilitar o uso para pessoas com deficiência visual e também facilitar o trabalho dos leitores de tela. Também é possível personalizar a visualização.
 
 ## Fluxo de Dados
 
