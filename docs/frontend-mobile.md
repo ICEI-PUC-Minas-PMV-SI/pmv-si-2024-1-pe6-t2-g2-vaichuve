@@ -63,19 +63,17 @@ O sistema não possui o uso se animações e transições, o motivo é facilitar
 
 ## Requisitos Não Funcionais
 
-1- Compatibilidade com Leitores de Tela:
-. A aplicação deve ser totalmente compatível com leitores de tela populares.
-. Todas as informações meteorológicas devem ser acessíveis e compreensíveis através de leitores de tela, como NVDA, JAWS e VoiceOver.
+* *Compatibilidade com Leitores de Tela:*
+* A aplicação deve ser totalmente compatível com leitores de tela populares.
+* Todas as informações meteorológicas devem ser acessíveis e compreensíveis através de leitores de tela, como NVDA, JAWS e VoiceOver.
 
-2- Contraste de Cores e Legibilidade:
+* *Contraste de Cores e Legibilidade:*
+* As cores utilizadas na aplicação devem ter um contraste suficiente para serem legíveis, atendendo aos padrões WCAG 2.1 AA.
+* O tamanho da fonte deve ser configurável para permitir que usuários ajustem conforme suas necessidades.
 
-. As cores utilizadas na aplicação devem ter um contraste suficiente para serem legíveis, atendendo aos padrões WCAG 2.1 AA.
-. O tamanho da fonte deve ser configurável para permitir que usuários ajustem conforme suas necessidades.
-
-3- Feedback Auditivo:
-
-. Informações críticas, como alertas meteorológicos, devem ser fornecidas através de feedback auditivo claro e imediato.
-. A aplicação deve oferecer a opção de conversão de texto para fala para fornecer previsões meteorológicas e outras informações.
+* *Feedback Auditivo:*
+* Informações críticas, como alertas meteorológicos, devem ser fornecidas através de feedback auditivo claro e imediato.
+* A aplicação deve oferecer a opção de conversão de texto para fala para fornecer previsões meteorológicas e outras informações.
 
 
 ## Considerações de Segurança
