@@ -1,17 +1,23 @@
 # Front-end Móvel
 
-[Inclua uma breve descrição do projeto e seus objetivos.]
+O Projeto VaiChuve Web pretende disponibilizar uma versão mobile da aplicação, especificamente para as plataformas android e ios, ultilizando as ferramentas de acessibilidade nativas das respectivas plataformas e comtemplar as nescessidades de portadores de diversos tipos de deficiências visuais ao proporcionar acesso a informações de clima e local.
 
 ## Tecnologias Utilizadas
 
-[Lista das tecnologias principais que serão utilizadas no projeto.]
+1. NET MAUI (Multi-platform App UI)
+2. C# 10.0
+3. Microsoft .NET 8.0
+4. CommunityToolkit.Maui
+5. CommunityToolkit.Mvvm
+6. Microsoft.Extensions.Logging.Debug
 
 ## Arquitetura
 
-[Descrição da arquitetura das aplicação móvel, incluindo os componentes e suas interações.]
+O projeto ultiliza a separação entre serviços (funcionalidades) em camadas. Além disso é utlilzado o modelo de arquitetura MVVM para controle de estado da aplicação.
 
 ## Modelagem da Aplicação
-[Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
+
+![Diagrama de Classe Mobile](digramaMobile.png)
 
 ## Projeto da Interface
 [Descreva o projeto da interface móvel da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
