@@ -20,7 +20,7 @@ O projeto ultiliza a separação entre serviços (funcionalidades) em camadas. A
 ![Diagrama de Classe Mobile](img/digramaMobile.png)
 
 ## Projeto da Interface
-O sistema foi projetado para atender pessoas com deficiência visual, para uma melhor experiência do usuário, é necessário baixar o App Acessibilidade do Android, visto que a ferramenta tem a integração com as funcionalidades que esse App proporciona.
+O sistema foi projetado para atender pessoas com deficiência visual. Para uma melhor experiência do usuário, é necessário baixar o App Acessibilidade do Android, visto que a ferramenta tem a integração com as funcionalidades que o nosso sistema proporciona.
 
 ### Wireframes
 ![Tela Início](img/Inicio.png)
