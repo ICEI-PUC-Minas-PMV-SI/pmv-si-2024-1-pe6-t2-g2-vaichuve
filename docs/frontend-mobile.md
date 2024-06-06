@@ -23,7 +23,9 @@ O projeto ultiliza a separação entre serviços (funcionalidades) em camadas. A
 O sistema foi projetado para atender pessoas com deficiência visual, para uma melhor experiência do usuário, é necessário baixar o App Acessibilidade do Android, visto que a ferramenta tem a integração com as funcionalidades que esse App proporciona.
 
 ### Wireframes
-[Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
+![Tela Início](img/Inicio.png)
+![Tela Configurações](img/Configurações.png)
+![Tela Menu](img/Menu.png)
 
 ### Design Visual
 Utilizamos as cores azul #1190cb e branco. Como fonte utilizamos Helvética sem serifa, pois a mesma facilita a leitura para pessoas com deficiência visual leve.
