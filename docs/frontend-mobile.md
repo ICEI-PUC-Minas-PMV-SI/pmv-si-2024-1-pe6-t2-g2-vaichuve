@@ -46,12 +46,24 @@ O sistema não possui o uso se animações e transições, o motivo é facilitar
 
 ## Requisitos Não Funcionais
 
-[Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]
+1- Compatibilidade com Leitores de Tela:
+. A aplicação deve ser totalmente compatível com leitores de tela populares.
+. Todas as informações meteorológicas devem ser acessíveis e compreensíveis através de leitores de tela.
+
+2- Contraste de Cores e Legibilidade:
+
+. As cores utilizadas na aplicação devem ter um contraste suficiente para serem legíveis, atendendo aos padrões WCAG 2.1 AA.
+. O tamanho da fonte deve ser configurável para permitir que usuários ajustem conforme suas necessidades.
+
+3- Feedback Auditivo:
+
+. Informações críticas, como alertas meteorológicos, devem ser fornecidas através de feedback auditivo claro e imediato.
+. A aplicação deve oferecer a opção de conversão de texto para fala para fornecer previsões meteorológicas e outras informações.
 
 
 ## Considerações de Segurança
 
-[Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
+Ao desenvolver uma aplicação de clima com foco em acessibilidade para pessoas com deficiência visual, é crucial incorporar robustas considerações de segurança para proteger os dados dos usuários e garantir a integridade da aplicação. Isso inclui a implementação de protocolos de criptografia para proteger a transmissão de dados sensíveis, como informações de localização. Além disso, a aplicação deve estar equipada com medidas de autenticação e autorização para garantir que apenas usuários autorizados tenham acesso a funcionalidades específicas. É igualmente importante realizar testes de segurança regulares para identificar e corrigir vulnerabilidades, prevenindo ataques como SQL injection, cross-site scripting (XSS) e cross-site request forgery (CSRF). A proteção contra ataques DDoS (Distributed Denial of Service) também deve ser considerada para manter a disponibilidade da aplicação. Finalmente, é essencial garantir que a aplicação cumpra as regulamentações de privacidade e proteção de dados, como o GDPR (General Data Protection Regulation), para proteger os direitos dos usuários e evitar possíveis implicações legais.
 
 ## Implantação
 
