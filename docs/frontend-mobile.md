@@ -17,7 +17,7 @@ O projeto ultiliza a separação entre serviços (funcionalidades) em camadas. A
 
 ## Modelagem da Aplicação
 
-![Diagrama de Classe Mobile](digramaMobile.png)
+![Diagrama de Classe Mobile](img/digramaMobile.png)
 
 ## Projeto da Interface
 [Descreva o projeto da interface móvel da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
