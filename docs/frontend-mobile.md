@@ -25,7 +25,7 @@ O sistema foi projetado para atender pessoas com deficiência visual, para uma m
 ### Wireframes
 ![Tela Início](img/Inicio.png)
 ![Tela Configurações](img/Configurações.png)
-![Tela Menu](img/Menu.png)
+![Tela Menu]()
 
 ### Design Visual
 Utilizamos as cores azul #1190cb e branco. Como fonte utilizamos Helvética sem serifa, pois a mesma facilita a leitura para pessoas com deficiência visual leve.
