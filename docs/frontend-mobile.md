@@ -42,13 +42,30 @@ O sistema não possui o uso se animações e transições, o motivo é facilitar
 
 ## Requisitos Funcionais
 
-[Liste os principais requisitos funcionais da aplicação.]
+* *Previsão do Tempo:*
+    * Localização atual do usuário (GPS ou entrada manual)
+    * Previsão para hoje, amanhã e próximos dias
+    * Condições climáticas detalhadas (temperatura, sensação térmica, umidade, vento, etc.)
+    * Previsão de precipitação (tipo de precipitação, intensidade, probabilidade)
+    * Alertas meteorológicos (chuvas fortes, tempestades, etc.)
+    * Radar meteorológico (opcional)
+    * Favoritar cidades
+    * Alerta de clima de acordo com os locais frequentados
+* *Acessibilidade por Voz:*
+    * Comando de voz para navegar no aplicativo
+    * Leitura em voz alta das informações climáticas
+    * Compatibilidade com leitores de tela
+* *Configurações de Leitura:*
+    * Aumento do tamanho da fonte
+    * Contraste de cores
+    * Escolha do tipo de letra
+    * Suporte para diferentes idiomas 
 
 ## Requisitos Não Funcionais
 
 1- Compatibilidade com Leitores de Tela:
 . A aplicação deve ser totalmente compatível com leitores de tela populares.
-. Todas as informações meteorológicas devem ser acessíveis e compreensíveis através de leitores de tela.
+. Todas as informações meteorológicas devem ser acessíveis e compreensíveis através de leitores de tela, como NVDA, JAWS e VoiceOver.
 
 2- Contraste de Cores e Legibilidade:
 
