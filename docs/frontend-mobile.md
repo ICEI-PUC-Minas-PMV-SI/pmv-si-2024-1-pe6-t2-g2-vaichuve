@@ -86,8 +86,8 @@ Ao desenvolver uma aplicação de clima com foco em acessibilidade para pessoas 
 2. Selecione a plataforma de destino como "Android".
 3. Crie uma assinatura do APK.
    
-`
 bash
+`
 keytool -genkey -v -keystore release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-key-alias
 `
 
