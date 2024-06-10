@@ -107,8 +107,8 @@ keytool -genkey -v -keystore release-key.jks -keyalg RSA -keysize 2048 -validity
 
 # Referências
 
-MICROSOFT. Creating Mobile Apps with .NET MAUI. 2022. Disponível em: https://docs.microsoft.com/en-us/dotnet/maui/get-started/first-app. Acesso em: 10 jun. 2024.
-MICROSOFT. Accessibility Best Practices for .NET MAUI. 2023. Disponível em: https://docs.microsoft.com/en-us/dotnet/maui/user-interface/accessibility. Acesso em: 10 jun. 2024.
-GOOGLE. Android Accessibility Overview. 2023. Disponível em: https://developer.android.com/guide/topics/ui/accessibility. Acesso em: 10 jun. 2024.
-MICROSOFT. .NET MAUI Accessibility Tools. 2023. Disponível em: https://docs.microsoft.com/en-us/dotnet/maui/tools/accessibility. Acesso em: 10 jun. 2024.
-W3C. Web Content Accessibility Guidelines (WCAG). 2021. Disponível em: https://www.w3.org/WAI/standards-guidelines/wcag/. Acesso em: 10 jun. 2024.
+* MICROSOFT. Creating Mobile Apps with .NET MAUI. 2022. Disponível em: https://docs.microsoft.com/en-us/dotnet/maui/get-started/first-app. Acesso em: 10 jun. 2024.
+* MICROSOFT. Accessibility Best Practices for .NET MAUI. 2023. Disponível em: https://docs.microsoft.com/en-us/dotnet/maui/user-interface/accessibility. Acesso em: 10 jun. 2024.
+* GOOGLE. Android Accessibility Overview. 2023. Disponível em: https://developer.android.com/guide/topics/ui/accessibility. Acesso em: 10 jun. 2024.
+* MICROSOFT. .NET MAUI Accessibility Tools. 2023. Disponível em: https://docs.microsoft.com/en-us/dotnet/maui/tools/accessibility. Acesso em: 10 jun. 2024.
+* W3C. Web Content Accessibility Guidelines (WCAG). 2021. Disponível em: https://www.w3.org/WAI/standards-guidelines/wcag/. Acesso em: 10 jun. 2024.
