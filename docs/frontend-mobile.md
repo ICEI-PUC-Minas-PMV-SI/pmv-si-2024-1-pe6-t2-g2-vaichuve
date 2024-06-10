@@ -84,18 +84,20 @@ Ao desenvolver uma aplicação de clima com foco em acessibilidade para pessoas 
 
 1. Compilar o projeto e certifique-se de que a configuração de build está definida como "Release". 
 2. Selecione a plataforma de destino como "Android".
-3A. Crie uma assinatura do APK.
+3. Crie uma assinatura do APK.
+   
 `
 bash
 keytool -genkey -v -keystore release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-key-alias
 `
-3B. Siga as instruções para definir uma senha e informações da chave.
-4. No Solution Explorer, clique com o botão direito no projeto e selecione "Propriedades", vá para a seção "Android Package Signing" e Marque a opção "Sign the .APK file using the following keystore details". Depois preencha os detalhes do keystore gerado.
-5. Compilar o APK Assinado (No Visual Studio, defina a configuração de build como "Release") e Clique com o botão direito no projeto e selecione "Publicar".
-6(Opicional). Distribuir via Google Play Store:
-6A. Vá para o Google Play Console e faça login.
-6B. Crie um novo aplicativo e siga as instruções para preencher os detalhes do aplicativo.
-6C. Faça o upload do APK assinado e siga as instruções para publicação.
+
+4. Siga as instruções para definir uma senha e informações da chave.
+5. No Solution Explorer, clique com o botão direito no projeto e selecione "Propriedades", vá para a seção "Android Package Signing" e Marque a opção "Sign the .APK file using the following keystore details". Depois preencha os detalhes do keystore gerado.
+6. Compilar o APK Assinado (No Visual Studio, defina a configuração de build como "Release") e Clique com o botão direito no projeto e selecione "Publicar".
+7. Distribuir via Google Play Store:
+8. Vá para o Google Play Console e faça login.
+9. Crie um novo aplicativo e siga as instruções para preencher os detalhes do aplicativo.
+10. Faça o upload do APK assinado e siga as instruções para publicação.
 
 ## Testes
 
