@@ -26,7 +26,7 @@ O sistema foi projetado para atender pessoas com deficiência visual. Para uma m
 ![Tela Início](img/Inicio.png)
 ![Tela Configurações](img/Configurações.png)
 ![Tela Notícias](img/News.png)
-![Tela Notícias](img/News(1).png)
+![Tela Notícias](img/NewsTab.png)
 
 ### Design Visual
 Utilizamos as cores azul #1190cb e branco. Como fonte utilizamos Helvética sem serifa, pois a mesma facilita a leitura para pessoas com deficiência visual leve.
