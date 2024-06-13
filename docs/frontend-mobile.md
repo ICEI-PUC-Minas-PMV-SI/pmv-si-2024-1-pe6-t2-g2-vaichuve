@@ -57,12 +57,12 @@ O sistema não possui o uso se animações e transições, o motivo é facilitar
 
 ## Requisitos Não Funcionais
 
-*RNF1: A aplicação deve ser totalmente compatível com leitores de tela populares.
-*RNF2: Todas as informações meteorológicas devem ser acessíveis e compreensíveis através de leitores de tela, como NVDA, JAWS e VoiceOver.
-.RNF3: As cores utilizadas na aplicação devem ter um contraste suficiente para serem legíveis, atendendo aos padrões WCAG 2.1 AA.
-.RNF4: O tamanho da fonte deve ser configurável para permitir que usuários ajustem conforme suas necessidades.
-.RNF5: Informações críticas, como alertas meteorológicos, devem ser fornecidas através de feedback auditivo claro e imediato.
-.RNF6: A aplicação deve oferecer a opção de conversão de texto para fala para fornecer previsões meteorológicas e outras informações.
+- RNF1: A aplicação deve ser totalmente compatível com leitores de tela populares.
+- RNF2: Todas as informações meteorológicas devem ser acessíveis e compreensíveis através de leitores de tela, como NVDA, JAWS e VoiceOver.
+- RNF3: As cores utilizadas na aplicação devem ter um contraste suficiente para serem legíveis, atendendo aos padrões WCAG 2.1 AA.
+- RNF4: O tamanho da fonte deve ser configurável para permitir que usuários ajustem conforme suas necessidades.
+- RNF5: Informações críticas, como alertas meteorológicos, devem ser fornecidas através de feedback auditivo claro e imediato.
+- RNF6: A aplicação deve oferecer a opção de conversão de texto para fala para fornecer previsões meteorológicas e outras informações.
 
 ## Considerações de Segurança
 
