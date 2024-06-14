@@ -43,17 +43,9 @@ O sistema não possui o uso se animações e transições, o motivo é facilitar
 - RF2: O usuário deve visualizar a previsão do tempo para hoje, amanhã e os próximos dias.
 - RF3: O usuário deve ver detalhes das condições climáticas, incluindo temperatura, sensação térmica, umidade e vento.
 - RF4: O usuário deve obter informações sobre a previsão de precipitação, incluindo tipo de precipitação, intensidade e probabilidade.
-- RF5: O usuário deve receber alertas meteorológicos, como chuvas fortes e tempestades.
-- RF6: O usuário deve ter acesso a um radar meteorológico para monitorar condições climáticas em tempo real.
-- RF7: O usuário deve poder favoritar cidades para acessar rapidamente suas previsões climáticas.
-- RF8: O usuário deve receber alertas de clima para locais que frequenta regularmente.
-- RF9: O usuário deve poder utilizar comandos de voz para navegar no aplicativo.
-- RF10: O usuário deve ter as informações climáticas lidas em voz alta.
-- RF11: O usuário deve contar com compatibilidade do aplicativo com leitores de tela.
-- RF12: O usuário deve poder aumentar o tamanho da fonte para melhor leitura.
-- RF13: O usuário deve ajustar o contraste de cores para facilitar a visualização.
-- RF14: O usuário deve escolher o tipo de letra para uma leitura mais confortável.
-- RF15: O usuário deve ter suporte para diferentes idiomas no aplicativo. 
+- RF5: O usuário deve poder favoritar cidades para acessar rapidamente suas previsões climáticas.
+- RF6: O usuário deve poder aumentar o tamanho da fonte para melhor leitura.
+- RF7: O usuário deve ter suporte para diferentes idiomas no aplicativo. 
 
 ## Requisitos Não Funcionais
 
@@ -62,7 +54,6 @@ O sistema não possui o uso se animações e transições, o motivo é facilitar
 - RNF3: As cores utilizadas na aplicação devem ter um contraste suficiente para serem legíveis, atendendo aos padrões WCAG 2.1 AA.
 - RNF4: O tamanho da fonte deve ser configurável para permitir que usuários ajustem conforme suas necessidades.
 - RNF5: Informações críticas, como alertas meteorológicos, devem ser fornecidas através de feedback auditivo claro e imediato.
-- RNF6: A aplicação deve oferecer a opção de conversão de texto para fala para fornecer previsões meteorológicas e outras informações.
 
 ## Considerações de Segurança
 
