@@ -43,7 +43,8 @@ O sistema não possui o uso se animações e transições, o motivo é facilitar
 - RF2: O usuário deve visualizar a previsão do tempo para hoje, amanhã e os próximos dias.
 - RF3: O usuário deve ver detalhes das condições climáticas, incluindo temperatura, sensação térmica, umidade e vento.
 - RF4: O usuário deve poder favoritar cidades para acessar rapidamente suas previsões climáticas.
-- RF5: O usuário deve poder aumentar o tamanho da fonte para melhor leitura. 
+- RF5: O usuário deve poder aumentar o tamanho da fonte para melhor leitura.
+- RF6: O usuário deve poder acessar notícias relacionadas ao clima dentro da aplicação. 
 
 ## Requisitos Não Funcionais
 
