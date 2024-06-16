@@ -58,7 +58,12 @@ O sistema não possui o uso se animações e transições, o motivo é facilitar
 
 Ao desenvolver uma aplicação de clima com foco em acessibilidade para pessoas com deficiência visual, é crucial incorporar robustas considerações de segurança para proteger os dados dos usuários e garantir a integridade da aplicação. Isso inclui a implementação de protocolos de criptografia para proteger a transmissão de dados sensíveis, como informações de localização. Além disso, a aplicação deve estar equipada com medidas de autenticação e autorização para garantir que apenas usuários autorizados tenham acesso a funcionalidades específicas. É igualmente importante realizar testes de segurança regulares para identificar e corrigir vulnerabilidades, prevenindo ataques como SQL injection, cross-site scripting (XSS) e cross-site request forgery (CSRF). A proteção contra ataques DDoS (Distributed Denial of Service) também deve ser considerada para manter a disponibilidade da aplicação. Finalmente, é essencial garantir que a aplicação cumpra as regulamentações de privacidade e proteção de dados, como o GDPR (General Data Protection Regulation), para proteger os direitos dos usuários e evitar possíveis implicações legais.
 
-## Implantação
+## Build
+
+1. Instale o .NET SDK 8.0 - [Link Para Donwload .net 8.0](https://dotnet.microsoft.com/pt-br/download/dotnet/8.0)
+2. Dentro da pasta do projeto rode o comando `dotnet build -f net8.0-android` e `dotnet run`. 
+
+## Implantação / Instalação
 
 1. Compilar o projeto e certifique-se de que a configuração de build está definida como "Release". 
 2. Selecione a plataforma de destino como "Android".
@@ -76,16 +81,6 @@ keytool -genkey -v -keystore release-key.jks -keyalg RSA -keysize 2048 -validity
 8. Vá para o Google Play Console e faça login.
 9. Crie um novo aplicativo e siga as instruções para preencher os detalhes do aplicativo.
 10. Faça o upload do APK assinado e siga as instruções para publicação.
-
-## Testes
-
-[Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
-
-1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
-2. Implemente testes unitários para testar unidades individuais de código, como funções e classes.
-3. Realize testes de integração para verificar a interação correta entre os componentes da aplicação.
-4. Execute testes de carga para avaliar o desempenho da aplicação sob carga significativa.
-5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
 
 # Referências
 
