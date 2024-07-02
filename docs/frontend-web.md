@@ -55,10 +55,8 @@ O projeto não ira ultilizar de ferramentas visuais de animação, transição, 
 2. ALTA:  A aplicação deve atualizar automaticamente as informações climáticas diáriamente.
 3. ALTA:  Mostrar dados como temperatura, umidade, velocidade do vento, e condições climáticas.
 4. ALTA:  Descrição de Imagens: Incluir descrições alternativas (alt text) para todas as imagens e ícones utilizados, para que leitores de tela possam descrever essas imagens para usuários com deficiência visual.
-5. MÉDIA: Implementar uma função que permita a narração das informações climáticas em voz alta.
-6. MÉDIA: Garantir que todos os elementos da interface sejam acessíveis através de leitores de tela como NVDA, JAWS e VoiceOver.
-7. BAIXA: Permitir que todas as funcionalidades da aplicação possam ser acessadas e operadas exclusivamente via teclado.
-8. BAIXA: Oferecer um modo de alto contraste para usuários com baixa visão.
+5. MÉDIA: Garantir que todos os elementos da interface sejam acessíveis através de leitores de tela como NVDA, JAWS e VoiceOver.
+6. BAIXA: Permitir que todas as funcionalidades da aplicação possam ser acessadas e operadas exclusivamente via teclado.
 
 ## Requisitos Não Funcionais
 
