@@ -34,9 +34,7 @@ O principal fluxo de dados consiste principalmente em chamados que o usuário mo
 |------|---------------------------------------------------------------------------------------------------------------|------------|
 |RF-001| Permitir que o usuário consulte previsões metereológicas                                                      | ALTA       |
 |RF-002| Permitir que o usuário consulte histórico de previsões metereológicas                                         | ALTA       | 
-|RF-003| Permitir que o usuário mande um feedback sobre a previsão de tempo que ele recebeu                            | MÉDIA      |
-|RF-004| Exibir na interface uma noticia do dia para o usuário                                                         | BAIXA      |
-|RF-005| Permitir que o usuário participe em uma enquete de palpites sobre a situação metereológica dos próximos dias  | BAIXA      |
+|RF-003| Exibir na interface notícias relacionadas ao clima                                                            | BAIXA      |
 
 ## Requisitos não Funcionais
 
